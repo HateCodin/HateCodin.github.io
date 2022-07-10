@@ -1,35 +1,27 @@
+:root {
+	/* colores */
+	--bg-color: #222222;
+	--h1-color: #55ae10;
+	--h2-color: #557e10;
+	--lk-color: #77aa10;
+}
 body {
-	background-color: #205375;
+	background-color: var(--bg-color);
 	color: #efefef;
 	box-sizing: border-box;
 	font-size: 16pt;
 }
 h1 {
-	color: #f66b0e;
+	color: var(--h1-color);
 	text-align: center;
 }
 h2 {
-	color: #f66b0e;
+	color: var(--h2-color);
 }
 div {
-	float: left;
+	padding: 0 20% 0 20%;
 }
-img {
-	text-align: center;
-}
-p {
-	text-align: center;
-	width: 75%;
-	margin-left: 12.5%; 
-}
-.centered {
-	text-align: center;
-}
-#parrafo {
-	width: 800px;
-	text-align: center;
-}
-
-.col-left-4 {
-	width: 33.33%
+a.normal_link {
+	color: var(--lk-color);
+	text-decoration: none;
 }
