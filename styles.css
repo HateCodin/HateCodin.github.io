@@ -1,0 +1,35 @@
+body {
+	background-color: #205375;
+	color: #efefef;
+	box-sizing: border-box;
+	font-size: 16pt;
+}
+h1 {
+	color: #f66b0e;
+	text-align: center;
+}
+h2 {
+	color: #f66b0e;
+}
+div {
+	float: left;
+}
+img {
+	text-align: center;
+}
+p {
+	text-align: center;
+	width: 75%;
+	margin-left: 12.5%; 
+}
+.centered {
+	text-align: center;
+}
+#parrafo {
+	width: 800px;
+	text-align: center;
+}
+
+.col-left-4 {
+	width: 33.33%
+}
