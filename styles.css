@@ -4,27 +4,30 @@
 	--h1-color: #55ae10;
 	--h2-color: #557e10;
 	--lk-color: #77aa10;
-}
+	}
 body {
 	background-color: var(--bg-color);
 	color: #efefef;
 	box-sizing: border-box;
 	font-size: 16pt;
-}
+	}
 h1 {
 	color: var(--h1-color);
 	text-align: center;
-}
+	}
 h2 {
 	color: var(--h2-color);
-}
+	}
 div {
 	padding: 0 20% 0 20%;
-}
+	}
 p {
 	text-align: justify;
-}
-a.normal_link {
+	}
+a {
 	color: var(--lk-color);
 	text-decoration: none;
-}
+	}
+a:hover {
+	text-decoration: underline;
+	}
