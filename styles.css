@@ -21,6 +21,12 @@ h2 {
 div {
 	padding: 0 20% 0 20%;
 	}
+.menu li {
+	display: inline;
+}
+.centrado {
+	text-align: center;
+}
 p {
 	text-align: justify;
 	}
